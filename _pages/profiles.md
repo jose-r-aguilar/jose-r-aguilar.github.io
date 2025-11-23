@@ -12,7 +12,7 @@ profiles:
   - align: right
     image: Aguilar_pic.jpg
     content: about.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
 
 ---

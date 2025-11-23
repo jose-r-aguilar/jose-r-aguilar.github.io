@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://bse.berkeley.edu/jose-aguilar'>Berkeley School of Education</a>. Aspiring Computational Social Science studying Post-Secondary Education
+subtitle: <a href='https://bse.berkeley.edu/jose-aguilar'>Berkeley School of Education</a>. Aspiring Computational Social Science studying Education Policy & Education
 
 profile:
   align: right
-  image: Aguilar_pic.jpg
+  image: AguilarJose_Headshot_Fall25.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
