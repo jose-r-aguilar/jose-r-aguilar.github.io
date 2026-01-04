@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jose-r-aguilar
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jose-r-aguilar/ESMC
+  - jose-r-aguilar/LSSPI_Power_Building_Census
+  - jose-r-aguilar/jose-r-aguilar.github.io
+  - jose-r-aguilar/EDUC_375B
+  - UCB-stat-159-f25/final-group13
