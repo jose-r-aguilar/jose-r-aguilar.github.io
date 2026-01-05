@@ -2,96 +2,186 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jose R. Aguilar Jr.
+    - name: Location
+      value: Berkeley, California, USA
+    - name: Email
+      value: j.aguilar@berkeley.edu
+    - name: Website
+      value: jose-r-aguilar.github.io
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Education (Policy, Politics, and Leadership)
+      institution: University of California, Berkeley
+      year: 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Doctoral training focused on education policy, organizational politics, and quantitative and computational methods.
+        - Emphasis on postsecondary access, equity, and AI in education systems.
+    - title: M.A. in Urban Education, Policy & Administration
+      institution: Loyola Marymount University
+      year: 2022
+      description:
+        - Master’s capstone research on narratives of BIPOC women pursuing STEM in higher education.
+    - title: B.S.A. in Computer Science
+      institution: The University of Texas at Austin
+      year: 2020
+      description:
+        - title: Additional Degrees
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - B.A. in Government, B.A. Mexican American & Latina/o Studies
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Interests & Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Research Interests
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Postsecondary equity and access
+        - Higher education pathways
+        - AI and algorithmic fairness
+        - Computational social science
+        - Big data in education
+        - Organizational politics and reform
+    - title: Technical & Methodological Skills
       items:
-        - Description 1.
-        - Description 2.
+        - Statistical modeling (R, Stata, Python)
+        - Natural Language Processing (NLP)
+        - Data engineering and pipelines
+        - Social network analysis
+        - Machine learning and big data analytics
+        - Policy analysis and memo writing
 
-- title: Other Interests
+- title: Fellowships, Awards, & Honors
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Summer Institutes in Computational Social Science, Stanford
+        - Spencer Fellow, Institute in Critical Quantitative, Computational, & Mixed Methods
+    - year: 2024 – 2025
+      items:
+        - NSF CRELS Fellow (Computational Research for Equity in the Legal System)
+    - year: 2024 – Present
+      items:
+        - Diversity & Community Fellow, UC Berkeley Office of Graduate Diversity
+    - year: 2023
+      items:
+        - Chancellor’s Fellowship for Graduate Study
+    - year: 2022
+      items:
+        - Edmundo Litton Research in Urban Education Award
+
+- title: Writing & Research
+  type: nested_list
+  contents:
+    - title: Works in Progress
+      items:
+        - "de Leon, M., Aguilar, J., Sung Oh, T. Computational analysis of financial aid information in California community colleges."
+        - "Aguilar, J. Framing reform and discourse: An NLP and organizational analysis of STEM education logics."
+        - "Aguilar, J. Access narratives and institutional legitimacy: A computational study of social mobility discourse."
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Russlynn Ali Fellow, Math Equity Research
+      institution: Education Trust West
+      year: 2022
+      description:
+        - Collected and analyzed statewide socioeconomic and racial subgroup data on math achievement, A–G completion, and graduation rates.
+        - Implemented hierarchical clustering and visualization pipelines to assess district-level equity.
+        - Identified and studied 20+ outlier districts with favorable subgroup outcomes.
+    - title: Master’s Capstone Researcher
+      institution: Loyola Marymount University
+      year: 2021 – 2022
+      description:
+        - Designed and conducted a qualitative narrative study on BIPOC women pursuing STEM in higher education.
+        - Conducted literature review using intersectionality, social career theory, and figured worlds frameworks.
+        - Coded interviews to identify transferable instructional factors for K–12 STEM contexts.
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Graduate Student Instructor – Human Contexts & Ethics of Data
+      institution: UC Berkeley, College of Computing, Data Science, and Society
+      year: 2025
+      description:
+        - Led discussion sections on data ethics, AI, and society for approximately 700 students.
+        - Designed interactive lesson plans using case studies and historical reasoning tools.
+    - title: Graduate Student Instructor – Project-Based Instruction
+      institution: UC Berkeley, CalTeach
+      year: 2024
+      description:
+        - Led student teams developing sustainability- and justice-oriented secondary STEM curricula.
+        - Supported instruction, facilitated discussions, and observed classroom fieldwork.
+    - title: Computer Science & Mathematics Teacher
+      institution: Manual Arts High School, College Preparatory Magnet
+      year: 2020 – 2023
+      description:
+        - Taught Algebra II, Pre-Calculus, AP Calculus AB, AP Computer Science, and Exploring CS.
+        - Integrated culturally relevant pedagogy and anti-racist instructional practices.
+        - Led development of performance assessments using thinking classrooms models.
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Public Policy Fellow
+      institution: Lumina Foundation
+      year: 2024
+      description:
+        - Conducted policy research supporting Hispanic Serving Institutions at the federal level.
+        - Produced landscape analysis on AI and higher education policy using equity frameworks.
+    - title: Policy Research Fellow
+      institution: The Campaign for College Opportunity
+      year: 2023 – 2024
+      description:
+        - Conducted quantitative and qualitative research on California higher education policy.
+        - Authored reports, briefs, memos, and blog posts for policy dissemination.
+    - title: Congressional Intern
+      institution: U.S. House of Representatives (TX-29)
+      year: 2019
+      description:
+        - Conducted testimony vetting for House Judiciary Committee hearings.
+        - Analyzed legislation and co-sponsorship strategies for the 116th Congress.
+    - title: Explorer Intern
+      institution: Microsoft Corporation
+      year: 2018
+      description:
+        - Improved monitoring systems for internal security intelligence pipelines.
+        - Supported alerting and risk mitigation across large-scale data infrastructure.
+
+- title: University Service & Leadership
+  type: time_table
+  contents:
+    - title: External Affairs Vice President
+      institution: UC Berkeley Graduate Assembly
+      year: 2024 – Present
+      description:
+        - Represent graduate students to UC Regents and state and federal policymakers.
+        - Oversaw advocacy strategy, committees, and external relations staff.
+    - title: Legislative Director
+      institution: UC Berkeley Graduate Assembly
+      year: 2024 – 2025
+      description:
+        - Led state and federal lobbying efforts and authored policy briefs and white papers.
+    - title: Co-Chair
+      institution: Graduate Association of Latinx Students, UC Berkeley
+      year: 2024 – 2025
+      description:
+        - Led executive committee and represented Latinx graduate community interests.
+    - title: Diversity & Community Fellow
+      institution: UC Berkeley Office of Graduate Diversity
+      year: 2024 – Present
+      description:
+        - Led initiatives supporting recruitment, mentorship, and retention of underrepresented graduate students.
+
+- title: Associations & Leadership
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Gen ZETA – Board Member
+    - Latinx Thriving Initiative – Graduate Advisory Board Representative
+    - Teach For America – Corps Alum
+    - Society of Hispanic Professional Engineers (SHPE) – Member & Former President
+    - Congressional Hispanic Caucus Institute Alumni Association
