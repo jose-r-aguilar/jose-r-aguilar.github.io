@@ -80,16 +80,20 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-i-joined-uc-berkeley-s-d-lab-as-a-data-science-amp-amp-ai-fellow-teaching-python-fundamentals-and-sharing-computational-approaches-to-education-policy-research",
+          title: 'I joined UC Berkeley’s D-Lab as a Data Science &amp;amp;amp; AI Fellow, teaching...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-presented-from-public-comment-to-policy-signals-validating-interpretable-nlp-for-curriculum-reform-at-the-2026-education-data-science-conference-at-stanford",
+          title: 'I presented “From Public Comment to Policy Signals: Validating Interpretable NLP for Curriculum...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-this-summer-i-served-as-an-aspects-of-leadership-facilitator-for-leadership-enterprise-for-a-diverse-america-leda-scholars-supporting-students-through-seminar-discussions-and-college-preparation",
+          title: 'This summer, I served as an Aspects of Leadership Facilitator for Leadership Enterprise...',
+          description: "",
+          section: "News",},{id: "news-i-received-a-2026-wheelhouse-summer-scholars-fellowship",
+          title: 'I received a 2026 Wheelhouse Summer Scholars Fellowship.',
+          description: "",
+          section: "News",},{id: "news-i-have-been-reappointed-as-the-graduate-student-representative-to-the-university-of-california-board-of-admissions-and-relations-with-schools-boars-for-academic-year-2026-27-and-appointed-student-observer-to-the-uc-board-of-regents-committee-on-academic-and-student-affairs",
+          title: 'I have been reappointed as the graduate student representative to the University of...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
